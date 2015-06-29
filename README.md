@@ -11,5 +11,7 @@ Atom package manager or `apm install texlicious`.
   * To include custom packages with `usepackage`, such as `cls`, `sty`, or `tex` files, specify a path in texlicious' settings option `Tex Inputs`.
   * Use magic comments common to other popular editors.
 
-## Note
+## Notes
 TeXlicious depends on latexmk which in turn depends on perl. Please ensure you have a working installation of perl before using TeXlicous.
+
+The Settings have an option `Enable Synctex` that isn't implemented yet.
