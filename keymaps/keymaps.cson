@@ -1,18 +1,18 @@
-".platform-darwin atom-text-editor":
+".platform-darwin atom-text-editor:not([mini])[data-grammar='text tex latex']":
   "cmd-;": "latex-plus:compile-and-sync"
   "alt-cmd-:": "latex-plus:compile"
   "cmd-'": "latex-plus:edit"
   "alt-cmd-;": "latex-plus:sync"
   "alt-cmd-'": "latex-plus:clean"
 
-".platform-linux atom-text-editor":
+".platform-linux atom-text-editor:not([mini])[data-grammar='text tex latex']":
   "ctrl-;": "latex-plus:compile-and-sync"
   "alt-ctrl-:": "latex-plus:compile"
   "ctrl-'": "latex-plus:edit"
   "ctrl-alt-;": "latex-plus:sync"
   "ctrl-alt-'": "latex-plus:clean"
 
-".platform-win32 atom-text-editor":
+".platform-win32 atom-text-editor:not([mini])[data-grammar='text tex latex']":
   "ctrl-;": "latex-plus:compile-and-sync"
   "alt-ctrl-:": "latex-plus:compile"
   "ctrl-'": "latex-plus:edit"
